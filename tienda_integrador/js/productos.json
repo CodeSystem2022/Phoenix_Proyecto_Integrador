@@ -1,0 +1,244 @@
+[
+    {
+        "id": "software-01",
+        "titulo": "Windows 10 anual",
+        "imagen": "./img/software/windows10.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-02",
+        "titulo": "Windows 11 anual",
+        "imagen": "./img/software/windows11.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-03",
+        "titulo": "adobe photoshop anual",
+        "imagen": "./img/software/photoshop.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-04",
+        "titulo": "adobe premiere anual",
+        "imagen": "./img/software/premiere.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-05",
+        "titulo": "Microsoft Office 365 anual",
+        "imagen": "./img/software/oficina.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-06",
+        "titulo": "Spotify individual anual",
+        "imagen": "./img/software/spotify.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-07",
+        "titulo": "Spotify Familiar anual",
+        "imagen": "./img/software/spotifyf.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "software-08",
+        "titulo": "Netflix Standar 2p anual",
+        "imagen": "./img/software/netflix.png",
+        "categoria": {
+            "nombre": "Programas",
+            "id": "software"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "hardware-01",
+        "titulo": "Teclado de ordenador de Juego de teclado Razer Blackwidow X Edición",
+        "imagen": "./img/hardware/teclado.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-02",
+        "titulo": "Teclado bluetooth Logitech K380 QWERTY español color grafito",
+        "imagen": "./img/hardware/tecladolog.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-03",
+        "titulo": "Teclado bluetooth Logitech K380 QWERTY Rosa",
+        "imagen": "./img/hardware/teclogrosa.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-04",
+        "titulo": "Disco sólido interno Kingston SA400S37/240G 240GB negro",
+        "imagen": "./img/hardware/disco1.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-05",
+        "titulo": "Disco sólido interno Kingston SA400S37/240G 480GB negro",
+        "imagen": "./img/hardware/disco1.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-06",
+        "titulo": "Disco sólido interno Kingston SA400S37/240G 240GB negro",
+        "imagen": "./img/hardware/discom.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-07",
+        "titulo": "Memoria RAM Fury Beast DDR4 gamer color negro 8GB",
+        "imagen": "./img/hardware/ramd4.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "hardware-08",
+        "titulo": "Memoria RAM Hikvision 4GB DDR4 So-Dimm - Lider Notebooks",
+        "imagen": "./img/hardware/ramd4n.jpg",
+        "categoria": {
+            "nombre": "hardware",
+            "id": "hardware"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "compu-01",
+        "titulo": "Notebook Hp Amd Ryzen 7 5700u 12gb 256gb Ssd",
+        "imagen": "./img/computadoras/hp.png",
+        "categoria": {
+            "nombre": "Computadora",
+            "id": "computadoras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "compu-02",
+        "titulo": "Notebook Lenovo Amd Ryzen 7 5700u 16gb 500gb Ssd",
+        "imagen": "./img/computadoras/lenovo.png",
+        "categoria": {
+            "nombre": "Computadora",
+            "id": "computadoras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "compu-03",
+        "titulo": "Notebook Dell Inspiron 3511 plata 15.6 Intel Core i5 1135G7 8GB de RAM 256GB SSD",
+        "imagen": "./img/computadoras/dell.png",
+        "categoria": {
+            "nombre": "computadora",
+            "id": "computadoras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "compu-04",
+        "titulo": "Apple MacBook Pro (13 pulgadas, 2020, Chip M1, 256 GB de SSD, 8 GB de RAM) - Gris espacial",
+        "imagen": "./img/computadoras/mac.png",
+        "categoria": {
+            "nombre": "computadora",
+            "id": "computadoras"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "servicios-01",
+        "titulo": "Servicio Instalacion de alarmas",
+        "imagen": "./img/servicios/alarma.jpg",
+        "categoria": {
+            "nombre": "servicios",
+            "id": "servicios"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "servicios-02",
+        "titulo": "Servicio Instalacion Camaras de videovigilancia ",
+        "imagen": "./img/servicios/camara.jpg",
+        "categoria": {
+            "nombre": "servicios",
+            "id": "servicios"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "servicios-02",
+        "titulo": "Servicio Tenico en redes informatica ",
+        "imagen": "./img/servicios/internet.jpg",
+        "categoria": {
+            "nombre": "servicios",
+            "id": "servicios"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "servicios-02",
+        "titulo": "Servicio de desarrollo de codigo (programadores) ",
+        "imagen": "./img/servicios/programacion.jpg",
+        "categoria": {
+            "nombre": "servicios",
+            "id": "servicios"
+        },
+        "precio": 1000
+    }
+    
+]
