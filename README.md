@@ -59,7 +59,7 @@ GitHub: <a href="https://github.com/javierbrega">Perfil de GitHub</a>
 <p align="center">
   <img src="https://github.com/CodeSystem2022/Phoenix_DevLab_4Semestre/assets/80373813/a8dfbeb2-ca49-468a-a164-151eabaa08cb" width="200" height="200" />
     <br>
-LinkedIn: <a href="www.linkedin.com/in/juani-sorato-1a394b268/">Perfil de LinkedIn</a>
+LinkedIn: <a href="https://www.linkedin.com/in/juani-sorato-1a394b268/">Perfil de LinkedIn</a>
 <br>
 GitHub: <a href="https://github.com/Juanisorato21">Perfil de GitHub</a>
 </p>
