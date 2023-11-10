@@ -51,7 +51,7 @@ Con gratitud,
 Grupo Phoenix Dev-Lab</p>
 
  </a>
-           <p> Este proyecto fue desarollado: por</p>
+           <p> Este proyecto fue desarollado por: </p>
          <a href="https://www.java.com/es/" target="_blank" rel="noreferrer">
             <img src="https://i.postimg.cc/x87J7KkK/Dev-labs-sf.png" alt="Phoenix Dev-lab" width="200" height="200"/>
         </a>
