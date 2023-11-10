@@ -1,0 +1,23 @@
+
+    <script>
+    function confirmLogout() {
+        var confirmLogout = confirm("¿Estás seguro de que deseas cerrar sesión?");
+        if (confirmLogout) {
+            window.location.href = "/logout";
+        }
+    }
+</script>
+<!-- Contenido de tu página -->
+<nav>
+    <ul>
+        <li class="nav-item">
+            <a class="nav-link" href="/logout" onclick="confirmLogout()">Logout</a>
+        </li>
+        <!-- Otros elementos del menú de navegación -->
+        <!-- ... -->
+    </ul>
+</nav>
+
+<!-- Otro contenido de la página -->
+<!-- ... -->
+
