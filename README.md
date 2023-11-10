@@ -3,6 +3,7 @@
 <img src="https://media.giphy.com/media/yoGoJGSioqhkEqeVrE/giphy-downsized-large.gif" width="400" height="400" />
 
 <h1> 𝙀-𝘾𝙊𝙈𝙈𝙀𝙍𝘾𝙀 𝘿𝘾𝙏𝙚𝙘𝙝 "𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨 𝙮 𝙨𝙚𝙧𝙫𝙞𝙘𝙞𝙤𝙨" </h1>
+<img src="https://i.postimg.cc/MGn04zcV/logo1.png" alt="DCTech Logo" width="200 %" height="100%"> 
 <h1>𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙘𝙞𝙤𝙣</h1>
 <p>DCTech es un vibrante e-commerce diseñado y desarrollado con pasión por el equipo de estudiantes de la Tecnicatura en Programación de la UTN Facultad Regional San Rafael, bajo el nombre de Phoenix Dev-Lab. Este proyecto refleja la dedicación y el conocimiento adquirido durante su formación académica.
 
