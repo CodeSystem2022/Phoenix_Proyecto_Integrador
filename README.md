@@ -30,7 +30,7 @@ Ubicada en San Rafael, DCTech se enorgullece de ser una empresa local comprometi
             <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_official_logo_icon_169938.png" alt="java" width="200" height="100"/>
         </a>
       <h1>¿𝙌𝙪𝙞𝙚𝙣𝙚𝙨 𝙨𝙤𝙢𝙤𝙨?</h1>
-       <p>El Grupo Phoenix Dev-Lab, una iniciativa emprendedora formada por tres estudiantes destacados de la Tecnicatura en Programación de la UTN FRSR (Facultad Regional San Rafael), surge como un renacimiento tras experiencias previas en el grupo "Darkcode". Los fundadores, motivados por su pasión por la programación y la tecnología, decidieron superar los desafíos encontrados en su trayectoria anterior y dar vida a Phoenix Dev-Lab, una empresa destinada a dejar una huella significativa en el panorama del desarrollo de software en San Rafael.
+       <p>El Grupo Phoenix Dev-Lab, una iniciativa emprendedora formada por tres estudiantes de la Tecnicatura en Programación de la UTN FRSR (Facultad Regional San Rafael), surge como un renacimiento tras experiencias previas en el grupo "Darkcode". Los fundadores, motivados por su pasión por la programación y la tecnología, decidieron superar los desafíos encontrados en su trayectoria anterior y dar vida a Phoenix Dev-Lab, una empresa destinada a dejar una huella significativa en el panorama del desarrollo de software en San Rafael.
 
 Este grupo de emprendedores ha consolidado su visión en la creación de soluciones innovadoras, aprovechando sus habilidades adquiridas en la Tecnicatura en Programación. Con un enfoque renovado y una determinación inquebrantable, Phoenix Dev-Lab se ha propuesto convertirse en un referente en el desarrollo de software, ofreciendo productos y servicios de alta calidad a sus clientes.
 
