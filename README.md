@@ -38,17 +38,30 @@ El crecimiento potencial de Phoenix Dev-Lab es innegable, respaldado por la dedi
 En pocas palabras Phoenix Dev-Lab es más que una empresa de desarrollo de software; es un testimonio de perseverancia, crecimiento y dedicación. Este grupo de emprendedores está forjando su camino hacia el éxito en San Rafael, impulsados por una visión compartida y el respaldo de aquellos que creen en su potencial.</p>
 <p align="center">
   <img src="https://github.com/CodeSystem2022/Phoenix_DevLab_4Semestre/assets/80373813/986dc4c7-978b-4680-ba17-e1d95c362f0f" width="200" height="200" />
-  <br><strong>⭐ Gustavo Cesaretti</strong><br>LinkedIn<br>https://www.linkedin.com/in/gustavo-cesaretti-80797223a/
+  <br>
+<strong>⭐ Gustavo Cesaretti</strong>
+<br>
+LinkedIn: <a href="https://www.linkedin.com/in/gustavo-cesaretti-80797223a/">Perfil de LinkedIn</a>
+<br>
+GitHub: <a href="https://github.com/Guzce">Perfil de GitHub</a>
+
 </p>
 
 <p align="center">
   <img src="https://github.com/CodeSystem2022/Phoenix_DevLab_4Semestre/assets/80373813/83308616-3022-44c2-8e51-23420fcd8ee1" width="200" height="200" />
-  <br><strong>⭐ Javier Brega</strong><br>LinkedIn<br>https://www.linkedin.com/in/javier-brega-438390213/
+  <br>
+LinkedIn: <a href="https://www.linkedin.com/in/javier-brega-438390213/">Perfil de LinkedIn</a>
+<br>
+GitHub: <a href="https://github.com/javierbrega">Perfil de GitHub</a>
+
 </p>
 
 <p align="center">
   <img src="https://github.com/CodeSystem2022/Phoenix_DevLab_4Semestre/assets/80373813/a8dfbeb2-ca49-468a-a164-151eabaa08cb" width="200" height="200" />
-  <br><strong>⭐ Juan Ignacio Sorato</strong><br>LinkedIn<br>https://www.linkedin.com/in/juani-sorato-1a394b268/
+    <br>
+LinkedIn: <a href="www.linkedin.com/in/juani-sorato-1a394b268/">Perfil de LinkedIn</a>
+<br>
+GitHub: <a href="https://github.com/Juanisorato21">Perfil de GitHub</a>
 </p>
 
 
