@@ -49,5 +49,14 @@ En nombre de todo el Grupo Phoenix Dev-Lab y sus socios fundadores, queremos exp
 
 Con gratitud,
 Grupo Phoenix Dev-Lab</p>
-        
+
+ </a>
+           <p> Este proyecto fue desarollado: por</p>
+         <a href="https://www.java.com/es/" target="_blank" rel="noreferrer">
+            <img src="https://i.postimg.cc/x87J7KkK/Dev-labs-sf.png" alt="Phoenix Dev-lab" width="200" height="200"/>
+        </a>
+         <p>Con el apoyo de: </p>
+        <a href="https://nodejs.org/en" target="_blank" rel="noreferrer">
+            <img src="https://i.postimg.cc/pTWsXtss/utn-icon-03.png" alt="UTNFRSR" width="200" height="100"/>
+ </a>
         
