@@ -12,4 +12,8 @@ router.get('/carrito', isLoggedIn, async (req, res) => {
     res.render('carrito.hbs');
 });
 
+router.get('/quieneSomos', isLoggedIn, async (req, res) => {
+    res.render('quieneSomos.hbs');
+});
+
 module.exports = router;

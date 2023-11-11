@@ -8,8 +8,8 @@ module.exports = {
         host:process.env.host || 'localhost',
         user:process.env.user || 'root',
         database:process.env.database || 'commerce2',
-        password:process.env.password || 'admin'
-        
+        password:process.env.password || 'admin',
+        port:process.env.port || '3306'
     }
     
 };
