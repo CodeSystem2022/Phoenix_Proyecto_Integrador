@@ -1,5 +1,4 @@
-
-    <script>
+<script>
     function confirmLogout() {
         var confirmLogout = confirm("¿Estás seguro de que deseas cerrar sesión?");
         if (confirmLogout) {
@@ -7,17 +6,40 @@
         }
     }
 </script>
-<!-- Contenido de tu página -->
-<nav>
-    <ul>
-        <li class="nav-item">
-            <a class="nav-link" href="/logout" onclick="confirmLogout()">Logout</a>
-        </li>
-        <!-- Otros elementos del menú de navegación -->
-        <!-- ... -->
-    </ul>
-</nav>
 
-<!-- Otro contenido de la página -->
-<!-- ... -->
+<div class="backgroundPage">
+    <div class="container p-4">
+        <div class="row">
+
+            <div class="col-md-4 mx-auto">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Logaut</h3>
+                    </div>
+                    <div class="card-body">
+                        <br>
+                        <br>
+                        <div>
+                            <li>
+                                <a class="carrito-acciones-vaciar" href="/">Volver a la Tienda</a>
+                            </li>
+                        </div>
+                        <br>
+                        <br>
+                        <div>
+                            <li>
+                                <a class="carrito-acciones-vaciar" href="/logout" onclick="confirmLogout()">¿Abandonar
+                                    Session?</a>
+                            </li>
+                            <!-- Otros elementos del menú de navegación -->
+                            <!-- ... -->
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

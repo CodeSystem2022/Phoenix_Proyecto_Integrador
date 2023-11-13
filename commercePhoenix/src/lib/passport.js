@@ -1,9 +1,14 @@
+// METODOS PARA LA AUTENTIFICACIÓN DE USUARIO
+
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
+// gestion de conexión
 const pool = require('../database');
+// metodo para el cifrado de datos importantes como contraseña
 const helpers = require('../lib/helpers');
 
+// metodo para signin
 passport.use('local.signin', new LocalStrategy({
     usernameField: 'username',
     passwordField: 'password',
@@ -14,22 +19,21 @@ passport.use('local.signin', new LocalStrategy({
         if (error) {
             return done(error);
         }
-
         if (rows.length > 0) {
             const user = rows[0];
             const validPassword = await helpers.matchPassword(password, user.password);
-
             if (validPassword) {
-                return done(null, user); // Solo pasamos el usuario autenticado
+                done(null, user, req.flash('success', 'Welcome ' + user.username));
             } else {
-                return done(null, false, req.flash('message', 'Incorrect Password'));
+                done(null, false, req.flash('message', 'Incorrect Password'));
             }
         } else {
-            return done(null, false, req.flash('message', 'The Username does not exist'));
+            return done(null, false, req.flash('message', 'The Username does not exists.'));
         }
     });
 }));
 
+// metodo para signup
 passport.use('local.signup', new LocalStrategy({
     usernameField: 'username',
     passwordField: 'password',  // En lugar de 'passportField', debe ser 'passwordField'
@@ -45,10 +49,10 @@ passport.use('local.signup', new LocalStrategy({
     };
     usuario.password = await helpers.encryptPassword(password); //usamos nuestro metodo en helpers para cifrar una de las variables
     const result = await pool.query('INSERT INTO usuarios SET ?', [usuario]) //conexion/usuario 
-    
-    //aqui asignaremos un Id a mi usuario creado /vemos en propiedades de newUser y vemos este insertId
+
+    //aqui asignaremos un Id a mi usuario creado /vemos en propiedades de usuario y vemos este insertId
     usuario.id = result.insertId;
-    return done(null, usuario); //utilizamos metodo creado para redirigir
+    return done(null, usuario);
 }));
 
 //usando passport (middleware)
@@ -62,23 +66,4 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser(async (id, done) => {
     const rows = await pool.query('SELECT * FROM usuarios WHERE id = ?', [id]);
     done(null, rows[0]);
-  });
-
-
-
-// import { matchPassword } from "./helpers.js";
-
-
-// passport.use('local.signup', new localStrategy({ 
-//     usernameField: 'username',
-//     passportField: 'password',
-//     passReqCallback: true
-// }, async (req, username, password, done) => {
-//     console.log(req.body);
-//     const { fullname, email } = req.body;
-//     let usuario = {
-//         fullname,
-//         username,
-//         email,
-//         password
-//     };
+});
