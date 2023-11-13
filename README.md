@@ -16,6 +16,29 @@ Con una base de datos sólida en MySQL, DCTech garantiza un rendimiento eficient
 DCTech no es solo una tienda en línea; es el resultado del esfuerzo colectivo de estudiantes comprometidos con la excelencia y la innovación. Respaldada por Phoenix Dev-Lab, esta iniciativa demuestra cómo la pasión por la tecnología y la programación puede transformarse en un proyecto tangible y exitoso.
 
 Ubicada en San Rafael, DCTech se enorgullece de ser una empresa local comprometida con la comunidad, acercando los mejores productos tecnológicos a sus clientes y contribuyendo al crecimiento y desarrollo tecnológico de la región. Con un enfoque en la calidad, la accesibilidad y el servicio al cliente, DCTech se posiciona como un referente en el mundo del comercio electrónico tecnológico.</p>
+<h1>𝘾𝙤𝙢𝙤 𝙘𝙤𝙧𝙧𝙚𝙧 𝙚𝙡 𝙚𝙘𝙤𝙢𝙢𝙚𝙧𝙘𝙚</h1>
+<h3> 1. Clonar el repositorio</h3>
+
+<p>Clona el repositorio del e-commerce desde el repositorio remoto usando github desktop o gitbash: el link del repo es: https://github.com/CodeSystem2022/Phoenix_Proyecto_Integrador.git</p>
+<h3>2. Crear la base de datos</h3>
+  <p>Abre MySQL Workbench.</p>
+  <p>Crea una nueva base de datos en schemas llamada <code>commerce2</code>.</p>
+  <p>Carga el esquema de la base de datos desde archivos:</p>
+  
+  <ol>
+    <li>Abre un nuevo query.</li>
+    <li>Selecciona "Cargar desde un archivo" y elige el archivo <code>productos.sql</code> en la carpeta del proyecto.</li>
+    <li>Ejecuta el query.</li>
+  </ol>
+
+  <p>Abre otro query nuevo y carga el archivo <code>usuarios.sql</code> de la misma manera.</p>
+
+  <h3>3. Abrir el proyecto en VSC</h3>
+  <p> Abre el proyecto en VSC, asegurate de abrir la carpeta nombrada "CommercePhoenix"</p>
+  <p> Abre una nueva consola y ejecuta el comando "npm run dev"</p>
+  <p>Espera a que la consola indique "BD is connected"</p>
+  <p>Abre el navegador web y en la barra de direcciones busca: localhost:3000 </p>
+  <h3>Listo!! Disfruta nuestro Ecommerce</h3>
 <h1> 𝙏𝙚𝙘𝙣𝙤𝙡𝙤𝙜𝙞𝙖𝙨 𝙪𝙩𝙞𝙡𝙞𝙯𝙖𝙙𝙖𝙨 </h1>
  <a href="https://lenguajejs.com" target="_blank" rel="noreferrer">
             <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_js_official_icon_130509.png" alt="java" width="100" height="100"/>
