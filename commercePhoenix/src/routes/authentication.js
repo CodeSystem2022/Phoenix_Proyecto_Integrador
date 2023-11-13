@@ -57,9 +57,4 @@ router.get('/logout', isLoggedIn, logout = (req, res, next) => {
   });
 });
 
-
-router.get('/carrito', isLoggedIn, (req, res) => {
-  res.render('carrito');
-});
-
 module.exports = router;

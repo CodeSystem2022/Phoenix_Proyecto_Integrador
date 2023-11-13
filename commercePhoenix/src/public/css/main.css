@@ -15,6 +15,42 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.backgroundPage {
+    width: 100vw;
+    height: 100vh;
+    list-style: none;
+    display: flex;
+    background-color: var(--clr-main);
+    
+}
+
+/** Navigation**/
+
+.mensaje {
+    background: var(--clr-main);
+}
+
+.navegacion {
+    background: var(--clr-main);
+    width: 100vw;
+    display: flex;
+    font-size: .65rem;
+}
+
+.nav-link {
+    text-align: center;
+    margin-left: 8%;
+    justify-content: center;
+    display: flex;
+    border: 0;
+    background-color: var(--clr-gray);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: var(--clr-main);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
     margin: 0;
     padding: 0;
@@ -55,19 +91,20 @@ aside {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    background-color: var(--clr-main);
 }
 
 .boton-menu {
-    background-color: transparent;
+    background-color: var(--clr-main);
     border: 0;
     color: var(--clr-white);
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-weight: 600;
+    font-weight: 900;
     padding: 1rem;
-    font-size: .85rem;
+    font-size: .75rem;
     width: 100%;
 }
 
@@ -185,7 +222,6 @@ main {
     background-color: var(--clr-main);
     color: var(--clr-white);
 }
-
 
 /** CARRITO **/
 
@@ -321,6 +357,7 @@ main {
     }
 
     .aside-visible {
+        height: 100vw;
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
@@ -384,12 +421,20 @@ main {
     }
     
 
+.container p-4 {
+    display: flex;
+    flex-direction: column;
 }
 
-
+}
 
 @media screen and (max-width: 400px) {
     .contenedor-productos {
         grid-template-columns: 1fr;
     }
+
+    .nav-item {
+        display: flex;
+    }
 }
+

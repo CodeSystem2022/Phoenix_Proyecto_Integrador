@@ -9,10 +9,10 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/carrito', isLoggedIn, async (req, res) => {
-    res.render('carrito.hbs');
+    res.render('carrito');
 });
 
-router.get('/quieneSomos', isLoggedIn, async (req, res) => {
+router.get('/quieneSomos', async (req, res) => {
     res.render('quieneSomos.hbs');
 });
 
